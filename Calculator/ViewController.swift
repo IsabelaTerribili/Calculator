@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
     @IBAction func appendDigit(sender: UIButton) {
         
-        let digit = sender.currentTitle! // Não é mais um optional com o ponro de exclamação
+        let digit = sender.currentTitle! // Não é mais um optional com o ponto de exclamação
         
         if userIsInTheMiddleOfTypingANumber {
             display.text = display.text! + digit
